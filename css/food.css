@@ -580,7 +580,7 @@ h4{
 
 
 .pop{
-    background:url(../images/popular-bg.jpg) no-repeat;
+    background:url(../images/popular-bg-min.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1306,7 +1306,7 @@ h4{
         background-position: center;
     }
     .pop{
-        background:url(../images/popular-bg.jpg) no-repeat;
+        background:url(../images/popular-bg-min.jpg) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
