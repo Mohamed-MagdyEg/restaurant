@@ -13,6 +13,10 @@
     background:#F7CA3E;
     color:#fff;
 }
+
+body{
+    overflow-x: hidden;
+}
 header{
     width: 100%;
     position: fixed;
@@ -151,7 +155,7 @@ p{
 .about .image{
     width: 60%;
     height: 550px;
-    background: url(../images/about-frame-img.png) no-repeat, url(../images/about.jpg) no-repeat;
+    background: url(../images/about-frame-img.png) no-repeat, url(../images/about_optimized.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -252,7 +256,7 @@ h4{
 /*popular*/
 
 .pop{
-    background:url(../images/popular-bg.jpg) no-repeat;
+    background:url(../images/popular-bg-min.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
