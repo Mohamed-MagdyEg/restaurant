@@ -504,7 +504,7 @@ p{
 }
 .about .image{
     width: 50%;
-    background: url(../images/about-frame-img.png) no-repeat, url(../images/about.jpg) no-repeat;
+    background: url(../images/about-frame-img.png) no-repeat, url(../images/about_optimized.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -903,7 +903,7 @@ header .bar.nav-toggle{
 .about .image{
     width: 90%;
     height: 600px;
-    background: url(../images/about-frame-img.png) no-repeat, url(../images/about.jpg) no-repeat;
+    background: url(../images/about-frame-img.png) no-repeat, url(../images/about_optimized.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -1301,7 +1301,7 @@ h4{
     .about .image{
         width: 92%;
         height: 600px;
-        background: url(../images/about-frame-img.png) no-repeat, url(../images/about.jpg) no-repeat;
+        background: url(../images/about-frame-img.png) no-repeat, url(../images/about_optimized.jpg) no-repeat;
         background-size: cover;
         background-position: center;
     }
