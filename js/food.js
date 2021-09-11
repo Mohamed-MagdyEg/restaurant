@@ -35,7 +35,13 @@ $(document).ready(function () {
             scrollTop:$("#home").offset().top
         },1000);    })
     $(window).on('load scroll',function(){
-
+        if(scrollY >= 1200){
+            $(".arrowtop").fadeIn(800);         
+             }
+             else if(scrollY <= 1199){
+                $(".arrowtop").fadeOut(800);         
+             }
+     
         $('#menuicon').removeClass('fa-times');
         $('.bar').removeClass('nav-toggle');
 
@@ -50,9 +56,9 @@ $(document).ready(function () {
                 $('.bar ul li a').removeClass('active');
                 $('.bar').find(`[href="#${id}"]`).addClass('active');
             }
-    
+           
         });
         
     });
-
+    
 });

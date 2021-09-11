@@ -168,6 +168,8 @@ p{
     box-shadow: 0px 0px 8px 1px #00000073;
     padding: 10px ;
     border-radius: 50%;
+    z-index: 900;
+    display: none;
 
 }
 .arrowtop:hover{
@@ -1444,6 +1446,8 @@ h4{
     box-shadow: 0px 0px 8px 1px #00000073;
     padding: 7px ;
     border-radius: 50%;
+    z-index: 900;
+    display: none;
 
 }
 .arrowtop:hover{
